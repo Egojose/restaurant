@@ -33,7 +33,7 @@ export class FormRegistroComponent {
     name: ['', Validators.required],
     lastName: ['', Validators.required],
     edad: ['', Validators.required],
-    genero: ['', Validators.required]
+    peso: ['', Validators.required]
   });
   secondFormGroup = this._formBuilder.group({
     email: ['', Validators.required],
