@@ -1,0 +1,8 @@
+<mat-form-field class="full-width" [appearance]="appearance">
+    <mat-label>Ingredientes</mat-label>
+    <mat-select [formControl]="ingredientes" multiple>
+      @for (ingrediente of ingredientesList; track ingrediente) {
+        <mat-option [value]="ingrediente">{{ingrediente}}</mat-option>
+      }
+    </mat-select>
+</mat-form-field>

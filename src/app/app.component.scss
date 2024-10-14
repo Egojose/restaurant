@@ -1,0 +1,14 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+app-recipe-card {
+    width: 100%;
+}
+app-footer {
+    position: absolute;
+    bottom: 0;
+}
